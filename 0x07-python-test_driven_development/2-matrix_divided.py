@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+""" this module catches errors in a matrix """
+
 def matrix_divided(matrix, div):
 
     if not type(div) in (int, float):
