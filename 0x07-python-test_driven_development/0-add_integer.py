@@ -1,18 +1,18 @@
 #!/usr/bin/python3
 """
-A module of a function that adds two numbers
+This module is a function that adds two numbers
 """
 def add_integer(a, b=98):
-    """Function that returns the addition of a + b
+    """This function returns value of a + b
 
     Args:
-        a: should be an int. if not throw error
-        b: second int. if not throw error. default val is 98
+        a: should be an int. else throw an error
+        b: second int. else throw an error. default is 98
 
     Return:
         a + b or raise a TypeError
     """
-        if type(a) is int or type(a) is float:
+    if type(a) is int or type(a) is float:
         if type(b) is int or type(b) is float:
             return int(a + b)
         else:
